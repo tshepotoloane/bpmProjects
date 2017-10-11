@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
+             SeparateXMLFiles="false" Package="project0_0_ui" ClientType="Generic">
+  <pageMap>
+    <page path="/SayHallo_TaskDetails.jspx" usageId="project0_0_ui_SayHallo_TaskDetailsPageDef"/>
+    <page path="/SayHallo_TaskNotification.jspx" usageId="project0_0_ui_SayHallo_TaskNotificationPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="project0_0_ui_SayHallo_TaskDetailsPageDef" path="project0_0_ui.pageDefs.SayHallo_TaskDetailsPageDef"/>
+    <page id="project0_0_ui_SayHallo_TaskNotificationPageDef"
+          path="project0_0_ui.pageDefs.SayHallo_TaskNotificationPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="Project0_0_UI_SayHallo" path="project0_0_ui.Project0_0_UI_SayHallo"/>
+  </dataControlUsages>
+</Application>

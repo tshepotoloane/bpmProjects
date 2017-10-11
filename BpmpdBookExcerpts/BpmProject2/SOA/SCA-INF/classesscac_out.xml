@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject2/SOA/processes/Process.bpmn</file>
+      <name>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject2/SOA/processes/Process.bpmn</name>
+      <fix/>
+      <msg>Node 'End' has no implementation defined</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject2/SOA/processes/Process.bpmn</file>
+      <name>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject2/SOA/processes/Process.bpmn</name>
+      <fix/>
+      <msg>Data Association expression is not valid in node 'End':  Undefined variable 'concatenationStringValue'.</msg>
+   </Fault>
+</Faults>

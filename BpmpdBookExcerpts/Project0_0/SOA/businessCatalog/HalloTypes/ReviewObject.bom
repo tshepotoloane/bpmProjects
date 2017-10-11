@@ -1,0 +1,23 @@
+//Content Format Version: 1.0
+
+//########################################################################################
+//####                                                                                ####
+//####          THIS IS AN AUTO GENERATED FILE. PLEASE DO NOT MANUALLY MODIFY         ####
+//#### CHANGES TO THIS FILE MAY PRODUCE UNEXPECTED BEHAVIOR AND WOULD BE OVERWRITTEN  ####
+//####                                                                                ####
+//########################################################################################
+package oracle.scripting.catalog.halloTypes;
+
+
+/* 
+* @Document('en')
+* <html>  <head>  </head>  <body>    <p style="margin-top: 0">      the case of cases<br>    </p>  </body></html>
+*/ 
+@com.oracle.scripting.lang.annotations.CatalogType(element = "E", 
+			namespace = "http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/ReviewObject", 
+			name = "ReviewObject", 
+			location = "/businessCatalog/HalloTypes/ReviewObject.xsd", 
+			module = "HalloTypes") 
+public class ReviewObject{
+
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:organization xmlns:ns0="http://xmlns.oracle.com/bpm/organization" xmlns:ns1="http://xmlns.oracle.com/bpm/lpg/peopleQuery" xmlns:ns2="http://xmlns.oracle.com/bpm/identity" xmlns:ns3="http://xmlns.oracle.com/bpel/workflow/taskQuery" xmlns:ns4="http://xmlns.oracle.com/bpel/workflow/task">
+   <ns0:updateExistingObjects>false</ns0:updateExistingObjects>
+   <ns0:organizationalUnits>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>22aac69c-e097-4428-9b09-dbeed06b82a5</ns0:organizationalUnitId>
+         <ns0:organizationalUnitName>MyCompany</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>df963e32-80c0-4c60-8af7-51545e78a923</ns0:organizationalUnitId>
+         <ns0:parentOrganizationalUnitId>22aac69c-e097-4428-9b09-dbeed06b82a5</ns0:parentOrganizationalUnitId>
+         <ns0:parentOrganizationalUnitName>MyCompany</ns0:parentOrganizationalUnitName>
+         <ns0:organizationalUnitName>Product Development</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>4999e98a-badf-48be-acc1-8cdd58a96622</ns0:organizationalUnitId>
+         <ns0:parentOrganizationalUnitId>22aac69c-e097-4428-9b09-dbeed06b82a5</ns0:parentOrganizationalUnitId>
+         <ns0:parentOrganizationalUnitName>MyCompany</ns0:parentOrganizationalUnitName>
+         <ns0:organizationalUnitName>Sales</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>ed15096f-509d-445c-9056-8f1bb4f0d234</ns0:organizationalUnitId>
+         <ns0:parentOrganizationalUnitId>4999e98a-badf-48be-acc1-8cdd58a96622</ns0:parentOrganizationalUnitId>
+         <ns0:parentOrganizationalUnitName>Sales</ns0:parentOrganizationalUnitName>
+         <ns0:organizationalUnitName>Americas</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>dafc9a6e-3509-472f-bae9-847826214021</ns0:organizationalUnitId>
+         <ns0:parentOrganizationalUnitId>4999e98a-badf-48be-acc1-8cdd58a96622</ns0:parentOrganizationalUnitId>
+         <ns0:parentOrganizationalUnitName>Sales</ns0:parentOrganizationalUnitName>
+         <ns0:organizationalUnitName>EMEA</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+      <ns0:organizationalUnit>
+         <ns0:organizationalUnitId>669f6b49-8437-4f83-a901-fe4f1c6d276b</ns0:organizationalUnitId>
+         <ns0:parentOrganizationalUnitId>4999e98a-badf-48be-acc1-8cdd58a96622</ns0:parentOrganizationalUnitId>
+         <ns0:parentOrganizationalUnitName>Sales</ns0:parentOrganizationalUnitName>
+         <ns0:organizationalUnitName>APAC</ns0:organizationalUnitName>
+         <ns0:description></ns0:description>
+      </ns0:organizationalUnit>
+   </ns0:organizationalUnits>
+   <ns0:applicationRoles>
+      <ns0:applicationRole id="Page3_4.ProcessOwner" isProcessRole="true">
+         <ns2:name>Page3_4.Process Owner</ns2:name>
+         <ns0:processRole id="ProcessOwner" name="Process Owner"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page3_4.ProcessReviewer" isProcessRole="true">
+         <ns2:name>Page3_4.Process Reviewer</ns2:name>
+         <ns0:processRole id="ProcessReviewer" name="Process Reviewer"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page3_4.Role" isProcessRole="true">
+         <ns2:name>Page3_4.LoanOfficer</ns2:name>
+         <ns0:processRole id="Role" name="LoanOfficer"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page3_4.SalesRep" isProcessRole="true">
+         <ns2:name>Page3_4.SalesRep</ns2:name>
+         <ns0:processRole id="SalesRep" name="SalesRep"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page3_4.LoanProcessor" isProcessRole="true">
+         <ns2:name>Page3_4.LoanProcessor</ns2:name>
+         <ns0:processRole id="LoanProcessor" name="LoanProcessor"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page3_4.CreditOfficer" isProcessRole="true">
+         <ns2:name>Page3_4.CreditOfficer</ns2:name>
+         <ns0:processRole id="CreditOfficer" name="CreditOfficer"/>
+      </ns0:applicationRole>
+   </ns0:applicationRoles>
+   <ns0:applicationRoleOrgUnitCalendarAssociations/>
+   <ns0:participantPropertiesList/>
+   <ns0:holidayRules/>
+   <ns0:calendarRules/>
+   <ns0:businessParameters/>
+</ns0:organization>

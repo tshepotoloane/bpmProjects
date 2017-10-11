@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>5</line>
+      <col>25</col>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'title'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>10</line>
+      <col>32</col>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'stage'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>Task owner not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask2.task</file>
+      <name>HumanTasks/Humantask2.task</name>
+      <fix/>
+      <msg>Payload not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>38</line>
+      <col/>
+      <file>BPEL/Subprocess1.sbpel</file>
+      <name>BPEL/Subprocess1.sbpel</name>
+      <fix/>
+      <msg>Element not completed: 'sequence'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>5</line>
+      <col>25</col>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'title'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>10</line>
+      <col>32</col>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'stage'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Task owner not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Payload not specified</msg>
+   </Fault>
+</Faults>

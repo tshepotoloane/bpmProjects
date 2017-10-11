@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:organization xmlns:ns0="http://xmlns.oracle.com/bpm/organization" xmlns:ns1="http://xmlns.oracle.com/bpm/lpg/peopleQuery" xmlns:ns3="http://xmlns.oracle.com/bpm/identity" xmlns:ns2="http://xmlns.oracle.com/bpel/workflow/taskQuery" xmlns:ns4="http://xmlns.oracle.com/bpel/workflow/task">
+   <ns0:updateExistingObjects>false</ns0:updateExistingObjects>
+   <ns0:organizationalUnits/>
+   <ns0:applicationRoles>
+      <ns0:applicationRole id="Page5_15.ProcessOwner" isProcessRole="true">
+         <ns3:name>Page5_15.Process Owner</ns3:name>
+         <ns0:processRole id="ProcessOwner" name="Process Owner"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page5_15.ProcessReviewer" isProcessRole="true">
+         <ns3:name>Page5_15.Process Reviewer</ns3:name>
+         <ns0:processRole id="ProcessReviewer" name="Process Reviewer"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page5_15.Customer" isProcessRole="true">
+         <ns3:name>Page5_15.Customer</ns3:name>
+         <ns0:processRole id="Customer" name="Customer"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page5_15.Warehouse" isProcessRole="true">
+         <ns3:name>Page5_15.Warehouse</ns3:name>
+         <ns0:processRole id="Warehouse" name="Warehouse"/>
+      </ns0:applicationRole>
+      <ns0:applicationRole id="Page5_15.SalesDepartment" isProcessRole="true">
+         <ns3:name>Page5_15.Sales Department</ns3:name>
+         <ns0:processRole id="SalesDepartment" name="Sales Department"/>
+      </ns0:applicationRole>
+   </ns0:applicationRoles>
+   <ns0:applicationRoleOrgUnitCalendarAssociations/>
+   <ns0:participantPropertiesList/>
+   <ns0:holidayRules/>
+   <ns0:calendarRules/>
+   <ns0:businessParameters/>
+</ns0:organization>

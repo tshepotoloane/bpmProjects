@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org" elementFormDefault="qualified">
+   <element name="int" type="int"/>
+   <element name="double" type="double"/>
+   <element name="string" type="string"/>
+   <element name="boolean" type="boolean"/>
+   <element name="byte" type="byte"/>
+   <element name="short" type="short"/>
+   <element name="long" type="long"/>
+   <element name="float" type="float"/>
+   <element name="integer" type="integer"/>
+   <element name="decimal" type="decimal"/>
+   <element name="dateTime" type="dateTime"/>
+   <element name="duration" type="duration"/>
+</schema>

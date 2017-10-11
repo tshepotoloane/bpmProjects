@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<decisionServices xmlns="http://xmlns.oracle.com/bpel/rules" name="HalloRules">
+    <ruleEngineProvider provider="Oracle_11.0.0.0.0" name="OracleRulesSDK">
+        <repository type="SCA-Archive">
+            <path>Project0_0/oracle/rules/BPMPD/HalloRules.rules</path>
+        </repository>
+    </ruleEngineProvider>
+    <decisionService name="HalloRules_DecisionService_1" ruleEngineProviderReference="OracleRulesSDK" targetNamespace="http://xmlns.oracle.com/HalloRules/HalloRules_DecisionService_1">
+        <catalog>HalloRules</catalog>
+        <pattern name="CallFunctionStateless">
+            <arguments>
+                <call>BPMPD.HalloRules.DecisionService_1</call>
+            </arguments>
+        </pattern>
+        <pattern name="CallFunctionStateful">
+            <arguments>
+                <call>BPMPD.HalloRules.DecisionService_1</call>
+            </arguments>
+        </pattern>
+    </decisionService>
+    <schemaInformation>
+        <dictionary fqnPackage="BPMPD" fqnName="HalloRules" updateNumber="8">
+            <schemaBrowser>
+                <package>com.oracle.xmlns.bpm.bpmobject.hallotypes.halloobject</package>
+                <namespace>http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/Halloobject</namespace>
+            </schemaBrowser>
+            <schemaBrowser>
+                <package>com.oracle.xmlns.bpm.bpmobject.hallotypes.reviewobject</package>
+                <namespace>http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/ReviewObject</namespace>
+            </schemaBrowser>
+            <schemaImport namespace="http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/Halloobject" localPart="Halloobject.xsd" schemaLocation="businessCatalog/HalloTypes/Halloobject.xsd">
+                <import namespace="http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/Halloobject" localPart="Halloobject.xsd" schemaLocation="businessCatalog/HalloTypes/Halloobject.xsd"/>
+            </schemaImport>
+            <schemaImport namespace="http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/ReviewObject" localPart="ReviewObject.xsd" schemaLocation="businessCatalog/HalloTypes/ReviewObject.xsd">
+                <import namespace="http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/ReviewObject" localPart="ReviewObject.xsd" schemaLocation="businessCatalog/HalloTypes/ReviewObject.xsd"/>
+            </schemaImport>
+        </dictionary>
+    </schemaInformation>
+</decisionServices>

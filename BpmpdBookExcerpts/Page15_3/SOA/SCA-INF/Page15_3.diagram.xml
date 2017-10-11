@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dgm:gDiagram xmlns:dgm="http://xmlns.oracle.com/sca/soadgm">
+    <dgm:gService name="bpelprocess1_client_ep">
+        <dgm:body borderWidth="2" arcRad="20" X="21" Y="269" width="137" height="96">
+            <dgm:borderColor r="153" g="153" b="153"/>
+            <dgm:bgColor r="255" g="255" b="255"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="11" Y="262" width="156" height="110">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:outputPort name="bpelprocess1_client_ep" X="127" Y="0" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1)" callbackInterface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1Callback)"/>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/adapters/designtime/adapter/images/soap_service_20x20.png" X="20" Y="4" width="20" height="20"/>
+        <dgm:operations>
+            <dgm:item>process</dgm:item>
+            <dgm:item>processResponse</dgm:item>
+        </dgm:operations>
+    </dgm:gService>
+    <dgm:gComponent name="BPELProcess1">
+        <dgm:body borderWidth="2" arcRad="20" X="454" Y="254" width="130" height="61">
+            <dgm:borderColor r="69" g="113" b="140"/>
+            <dgm:lightBgColor r="166" g="208" b="230"/>
+            <dgm:darkBgColor r="99" g="162" b="201"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="444" Y="247" width="150" height="77">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:inputPort name="bpelprocess1_client" X="-10" Y="15" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1)" callbackInterface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1Callback)"/>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/bpel/shared/plugins/resources/images/soa/process_20x20.png" X="10" Y="4" width="20" height="20"/>
+    </dgm:gComponent>
+    <dgm:gComponent name="Humantask1">
+        <dgm:body borderWidth="2" arcRad="20" X="454" Y="159" width="130" height="61">
+            <dgm:borderColor r="109" g="136" b="65"/>
+            <dgm:lightBgColor r="201" g="224" b="155"/>
+            <dgm:darkBgColor r="157" g="195" b="93"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="444" Y="152" width="150" height="77">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:inputPort name="TaskService" X="-10" Y="15" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskService)" callbackInterface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskServiceCallback)"/>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/workflow/resources/images/humantask_20x20.png" X="10" Y="4" width="20" height="20"/>
+    </dgm:gComponent>
+    <dgm:gComponent name="Humantask2">
+        <dgm:body borderWidth="2" arcRad="20" X="454" Y="64" width="130" height="61">
+            <dgm:borderColor r="109" g="136" b="65"/>
+            <dgm:lightBgColor r="201" g="224" b="155"/>
+            <dgm:darkBgColor r="157" g="195" b="93"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="444" Y="57" width="150" height="77">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:inputPort name="TaskService" X="-10" Y="15" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskService)" callbackInterface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskServiceCallback)"/>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/workflow/resources/images/humantask_20x20.png" X="10" Y="4" width="20" height="20"/>
+    </dgm:gComponent>
+    <dgm:gComponent name="Subprocess1">
+        <dgm:body borderWidth="2" arcRad="20" X="226" Y="119" width="130" height="111">
+            <dgm:borderColor r="141" g="141" b="141"/>
+            <dgm:lightBgColor r="255" g="255" b="255"/>
+            <dgm:darkBgColor r="202" g="202" b="202"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="216" Y="112" width="150" height="127">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:inputPort name="Subprocess1" X="-10" Y="15" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png"/>
+        <dgm:outputPort name="Humantask2.TaskService" X="120" Y="15" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskService)" callbackInterface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskServiceCallback)"/>
+        <dgm:outputPort name="Humantask1.TaskService" X="120" Y="40" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskService)" callbackInterface="http://xmlns.oracle.com/bpel/workflow/taskService#wsdl.interface(TaskServiceCallback)"/>
+        <dgm:outputPort name="BPELProcess1.bpelprocess1_client" X="120" Y="65" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1)" callbackInterface="http://xmlns.oracle.com/BpmpdBookExcerpts/Page15_3/BPELProcess1#wsdl.interface(BPELProcess1Callback)"/>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/bpel/v2/plugins/resources/images/application/scaconfig/subprocess_20x20.png" X="10" Y="4" width="20" height="20"/>
+    </dgm:gComponent>
+    <dgm:gComponent name="OracleRules1">
+        <dgm:body borderWidth="2" arcRad="20" X="226" Y="26" width="130" height="61">
+            <dgm:borderColor r="178" g="138" b="53"/>
+            <dgm:lightBgColor r="255" g="226" b="142"/>
+            <dgm:darkBgColor r="255" g="198" b="77"/>
+        </dgm:body>
+        <dgm:shadow arcRad="20" X="216" Y="19" width="150" height="77">
+            <dgm:bgColor r="196" g="228" b="240"/>
+        </dgm:shadow>
+        <dgm:nodeIcon URI="/oracle/tip/tools/ide/rules/plugins/resources/images/soa/decision_20x20.png" X="10" Y="4" width="20" height="20"/>
+    </dgm:gComponent>
+    <dgm:gWireLink source="Subprocess1/Humantask2.TaskService" target="Humantask2/TaskService" width="2">
+        <dgm:gSegment X1="366" Y1="144" X2="390" Y2="144"/>
+        <dgm:gSegment X1="390" Y1="144" X2="390" Y2="89"/>
+        <dgm:gSegment X1="390" Y1="89" X2="444" Y2="89"/>
+        <dgm:baseColor r="153" g="153" b="153"/>
+        <dgm:selectedColor r="49" g="106" b="196"/>
+    </dgm:gWireLink>
+    <dgm:gWireLink source="Subprocess1/Humantask1.TaskService" target="Humantask1/TaskService" width="2">
+        <dgm:gSegment X1="366" Y1="169" X2="420" Y2="169"/>
+        <dgm:gSegment X1="420" Y1="169" X2="420" Y2="184"/>
+        <dgm:gSegment X1="420" Y1="184" X2="444" Y2="184"/>
+        <dgm:baseColor r="153" g="153" b="153"/>
+        <dgm:selectedColor r="49" g="106" b="196"/>
+    </dgm:gWireLink>
+    <dgm:gWireLink source="Subprocess1/BPELProcess1.bpelprocess1_client" target="BPELProcess1/bpelprocess1_client" width="2">
+        <dgm:gSegment X1="366" Y1="194" X2="405" Y2="194"/>
+        <dgm:gSegment X1="405" Y1="194" X2="405" Y2="279"/>
+        <dgm:gSegment X1="405" Y1="279" X2="444" Y2="279"/>
+        <dgm:baseColor r="153" g="153" b="153"/>
+        <dgm:selectedColor r="49" g="106" b="196"/>
+    </dgm:gWireLink>
+    <dgm:gWireLink source="bpelprocess1_client_ep" target="BPELProcess1/bpelprocess1_client" width="2">
+        <dgm:gSegment X1="168" Y1="279" X2="444" Y2="279"/>
+        <dgm:baseColor r="153" g="153" b="153"/>
+        <dgm:selectedColor r="49" g="106" b="196"/>
+    </dgm:gWireLink>
+</dgm:gDiagram>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>error</severity>
+      <loc>/ns:composite/ns:service[@name='Mediator1_ep']</loc>
+      <line>18</line>
+      <col>71</col>
+      <file>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/Page15_5/SOA/composite.xml</file>
+      <name>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/Page15_5/SOA/composite.xml</name>
+      <fix/>
+      <msg>Service "Mediator1_ep" does not exist as wire source</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line>28</line>
+      <col/>
+      <file>BPEL/Subprocess1.sbpel</file>
+      <name>BPEL/Subprocess1.sbpel</name>
+      <fix/>
+      <msg>Element not completed: 'sequence'</msg>
+   </Fault>
+</Faults>

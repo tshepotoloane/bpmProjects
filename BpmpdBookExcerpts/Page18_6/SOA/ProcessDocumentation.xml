@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="12.1.3" fileRevision="20120601"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+   <component name="Process">
+      <topicDocumentations>
+         <topicDocumentation name="Process"/>
+         <topicDocumentation name="EVT20527795681643">
+            <labels>
+               <label locale="en">Start</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="EVT20527795681779">
+            <labels>
+               <label locale="en">End</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20527800884019">
+            <labels>
+               <label locale="en">Add Items</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20527804578782">
+            <labels>
+               <label locale="en">Ship</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20527807273154">
+            <labels>
+               <label locale="en">Check</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT2052781003957">
+            <labels>
+               <label locale="en">Backorder</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20527812148630">
+            <labels>
+               <label locale="en">Notify</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="EVT20527818316062">
+            <labels>
+               <label locale="en">BoundaryEvent</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="sf20527795681874"/>
+         <topicDocumentation name="sf20527802763296"/>
+         <topicDocumentation name="sf20527806259476"/>
+         <topicDocumentation name="sf2052782059063"/>
+         <topicDocumentation name="sf20527821972493"/>
+         <topicDocumentation name="sf20527823752344"/>
+         <topicDocumentation name="sf20527826164471"/>
+      </topicDocumentations>
+   </component>
+</processDocumentation>

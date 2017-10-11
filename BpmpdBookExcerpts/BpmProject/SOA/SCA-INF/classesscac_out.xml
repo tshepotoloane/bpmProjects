@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:component[@name='Humantask1/TaskService']</loc>
+      <line/>
+      <col/>
+      <file>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject/SOA/composite.xml</file>
+      <name>/oraroot/u03/app/oracle/config/12.2.1.3/app/apphome_0/BpmpdBookExcerpts/BpmProject/SOA/composite.xml</name>
+      <fix/>
+      <msg>The service "TaskService" exposed by component "Humantask1" is not wired to/used by any other component.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>5</line>
+      <col>25</col>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'title'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line>10</line>
+      <col>32</col>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>schema -  (Error) Element not completed: 'stage'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Task owner not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Humantask1.task</file>
+      <name>HumanTasks/Humantask1.task</name>
+      <fix/>
+      <msg>Payload not specified</msg>
+   </Fault>
+</Faults>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
+             SeparateXMLFiles="false" Package="project2" ClientType="Generic">
+  <pageMap>
+    <page path="/SayHallo_Form.jspx" usageId="project2_SayHallo_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="project2_SayHallo_FormPageDef" path="project2.pageDefs.SayHallo_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="Project2_SayHallo" path="project2.Project2_SayHallo"/>
+  </dataControlUsages>
+</Application>

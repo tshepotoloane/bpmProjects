@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="12.2.1.9.14" id="SayHalloPayloadType"
+          Package="Project0_0_UI_SayHallo" BeanClass="Project0_0_UI_SayHallo.SayHalloPayloadType" isJavaBased="false">
+  <AccessorAttribute id="Halloobject" IsCollection="true" BeanClass="Project0_0_UI_SayHallo.HalloobjectType"
+                     CollectionBeanClass="Project0_0_UI_SayHallo.HalloobjectType_Halloobject_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Halloobject"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="Halloobject"/>
+      <Property Name="targetNamespace" Value="http://xmlns.oracle.com/bpm/bpmobject/HalloTypes/Halloobject"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

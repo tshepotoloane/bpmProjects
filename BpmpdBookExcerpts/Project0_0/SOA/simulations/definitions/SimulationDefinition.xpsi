@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSimulation xmlns="http://www.bea.com/aqualogic/bpm/simulation" useCalendarRules="false" startTime="1507403561155000" name="SimulationDefinition" inflightFinish="true" duration="1h">
+   <categoryProbabilities>
+      <categoryProbability value="0.2"/>
+      <categoryProbability value="0.2"/>
+      <categoryProbability value="0.2"/>
+      <categoryProbability value="0.2"/>
+      <categoryProbability value="0.2"/>
+   </categoryProbabilities>
+   <modelSimulations>
+      <modelSimulation modelSimulationId="SimulationModel1" modelId="HalloWorldProcess" modelVariation=""/>
+   </modelSimulations>
+</projectSimulation>

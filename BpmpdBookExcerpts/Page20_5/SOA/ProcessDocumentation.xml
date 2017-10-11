@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="12.1.3" fileRevision="20120601"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+   <component name="Process">
+      <topicDocumentations>
+         <topicDocumentation name="Process"/>
+         <topicDocumentation name="EVT20533394265589">
+            <labels>
+               <label locale="en">Start</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="EVT20533394265661">
+            <labels>
+               <label locale="en">End</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="ACT2053339700555">
+            <labels>
+               <label locale="en">Activity</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20533397933890">
+            <labels>
+               <label locale="en">Activity1</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20533401348864">
+            <labels>
+               <label locale="en">Activity2</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT20533403690022">
+            <labels>
+               <label locale="en">Activity3</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="EVT20533410819774">
+            <labels>
+               <label locale="en">ThrowEvent</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="EVT2053341456103">
+            <labels>
+               <label locale="en">CatchEvent</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="sf20533394265748"/>
+         <topicDocumentation name="sf20533397708154"/>
+         <topicDocumentation name="sf2053340081132"/>
+         <topicDocumentation name="sf20533402445841"/>
+         <topicDocumentation name="sf20533405079165"/>
+         <topicDocumentation name="sf20533412320348"/>
+         <topicDocumentation name="sf20533415996991"/>
+      </topicDocumentations>
+   </component>
+</processDocumentation>

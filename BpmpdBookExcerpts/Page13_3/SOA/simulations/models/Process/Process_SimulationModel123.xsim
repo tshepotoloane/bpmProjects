@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelSimulation xmlns="http://www.bea.com/aqualogic/bpm/simulation" useMaxInstances="false" processId="Process" processVariation="" name="SimulationModel123" maxInstances="100">
+   <activities>
+      <activity useOrgResources="false" queueWarningLevel="1" queuePolicy="FIFO" participantSelectionPolicy="MINIMUM_COST" name="GTW20527396562350" innerSimulation="false" exceptionProbability="0.0" cost="0.0" capacity="1" activityCostType="FIXED_BASE_COST" abortProbability="0.0">
+         <distribution>
+            <normalDistribution mean="30000000" deviation="3000000"/>
+         </distribution>
+      </activity>
+      <activity useOrgResources="false" queueWarningLevel="1" queuePolicy="FIFO" participantSelectionPolicy="MINIMUM_COST" name="ACT20527387825086" innerSimulation="false" exceptionProbability="0.0" cost="0.0" capacity="1" activityCostType="FIXED_BASE_COST" abortProbability="0.0">
+         <distribution>
+            <normalDistribution mean="30000000" deviation="3000000"/>
+         </distribution>
+      </activity>
+      <activity useOrgResources="false" queueWarningLevel="1" queuePolicy="FIFO" participantSelectionPolicy="MINIMUM_COST" name="ACT20527390944612" innerSimulation="false" exceptionProbability="0.0" cost="0.0" capacity="1" activityCostType="FIXED_BASE_COST" abortProbability="0.0">
+         <distribution>
+            <normalDistribution mean="30000000" deviation="3000000"/>
+         </distribution>
+      </activity>
+   </activities>
+   <transitions>
+      <transition name="sf20527411878452" probability="0.5"/>
+      <transition name="sf20527397752619" probability="1.0"/>
+      <transition name="sf20527399759825" probability="0.5"/>
+      <transition name="sf20527387825273" probability="1.0"/>
+   </transitions>
+   <distribution>
+      <normalDistribution mean="30000000" deviation="3000000"/>
+   </distribution>
+</modelSimulation>
